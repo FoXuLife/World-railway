@@ -1,0 +1,152 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profileImage {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.profileImage p {
+    margin:5px 0 0 180px;
+    font-size: 30px;
+}
+.bg {
+    width:100%;
+    height: 200px;
+    background-image: url(../img/profileImage.png);
+    background-size: 100%;
+    background-position: center;
+    /* margin:30px 0 0 10px; */
+    border: 2px solid #74A254;
+}
+.circle-border {
+    background-color: #74A254;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    overflow: hidden;
+    width: 100px;
+    height: 50px;
+    margin: 146px 0 0 50px;
+}
+.bg img {
+    width: 94px;
+    position: relative;
+    bottom:47.5px;
+    left:53px;
+}
+
+.flight_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yourRace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    width:97%;
+    height: auto;
+   /*  margin:30px 0 0 10px; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.historyRace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    width:97%;
+    height:auto;
+    margin:40px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.zag {
+    font-size: 25px;
+    font-weight: lighter;
+}
+.train_img {
+    position: relative;
+    z-index:3;
+}
+.pop_flight {
+    z-index: 2;
+    position: relative;
+    margin-bottom: 0;
+}
+.pop_comment {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width:1250px;
+    height: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index:1;
+    margin-bottom: 20px;
+}
+
+.one_comment {
+    display: flex;
+    align-items: center;
+    height:auto;
+    padding: 10px;
+}
+.one_comment img {
+    width:50px;
+    height: 50px;
+}
+
+.one_comment p {
+    font-size: 13px;
+    color:#B4B4B4;
+    margin: 0 20px;
+}
+
+.one_comment .comment_txt {
+    font-size: 13px;
+}
+
+.new_comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    border-top:1px solid #74A254;
+}
+
+.new_comment input {
+    width: 500px;
+    font-size: 13px;
+    padding: 5px;
+    border: none;
+    background: transparent;
+    cursor: text;
+    outline: none;
+}
+
+.new_comment button {
+    background: transparent;
+    font-size: 13px;
+    color:#74A254;
+    padding:5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.error_txt {
+    margin: 30px 0;
+}
+
+.circle_image {
+    border-radius: 50%;
+    margin:0;
+    
+}

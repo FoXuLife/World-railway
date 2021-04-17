@@ -1,0 +1,177 @@
+/*---MAIN---*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*---CHECK_DAY---*/
+
+.check_day {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 400px;
+    margin: 35px 0;
+    padding: 15px 0;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+.check_day img {
+    width: 17px;
+    color: #FF4646;
+}
+
+.check_day a {
+    font-size: 20px;
+    color: #000000;
+}
+
+.check_day img, a {
+    margin-top: 4px;
+}
+
+#checked_day {
+    color: #FF4646;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.time {
+    color: #000000;
+    font-size: 20px;
+}
+
+
+/*---CHECK_VAN---*/
+
+
+
+
+/*__txt_colors__*/
+.black_txt {
+    color: #000000;
+    font-size: 15px;
+}
+
+.green_txt {
+    color: #74A254;
+    font-size: 15px;
+}
+
+.active {
+    height: 450px;
+    border: 1px solid #74A254;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.active .flight_info {
+    margin-top: 80px;
+    padding: 0 50px 0;
+}
+
+.transition {
+    transition: 0.5s;
+}
+.tran {
+    height: 60px;
+    top:40px;
+}
+
+.t_active {
+    top: 40px;
+    left: 10px;
+    width: 99.2%;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    height: 40px;
+    transition: 0.5s;
+}
+
+.t_active .train_txt {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border: none;
+    width: 100%;
+}
+
+/***VAN_INFO***/
+
+.van_info {
+    display: none;
+    width:100%;
+}
+
+.van_info img {
+    margin-top: 40px;
+}
+
+.active .van_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.van_info form {
+    width: 100%;
+    padding: 30px 50px;
+}
+
+.choose_place {
+    display: flex;
+    justify-content: center;
+    padding-right: 245px;
+}
+
+.pad {
+    margin-left:50px;
+}
+
+.place {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+.place select {
+    margin: 0 5px;
+}
+
+.pay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.pay label {
+    margin-left: 150px;
+}
+/*__h1-h6__*/
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+/*__reset_styles__*/
+a {
+    text-decoration: none;
+}
+
+
+.grey_txt {
+    color: #B8B8B8;
+}
+.mr {
+    margin-top:10px;
+}
+.mr-tp-lf {
+    margin:0 10px 1px 10px;
+}
+
+.train_type {
+    cursor: pointer;
+}

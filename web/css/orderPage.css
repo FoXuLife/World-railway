@@ -1,0 +1,208 @@
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+section h2 {
+    text-align: center;
+}
+.details {
+    width:1000px;
+    height:340px;
+    margin:50px 0 0 60px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25), -2px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.service {
+    width:450px;
+    height:180px;
+    margin:50px 0 0 50px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25), -2px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.service_price {
+    width:450px;
+    height:50px;
+    margin:30px 0 0 50px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25), -2px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.payment_method {
+    width:1000px;
+    height:340px;
+    margin:40px 0 0 60px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25), -2px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.total {
+    width:500px;
+    height:50px;
+    margin:30px 0 0 60px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25), -2px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form-control {
+    border: none;
+    background: white;
+    font-size: 12px;
+    padding: 15px 15px;
+    color: black;
+    border: 1px solid #B4B4B4;
+    margin:0 30px 20px 20px;
+}
+.place .form-control {
+    margin:0;
+    padding:0;
+}
+.heig {
+    width:100px;
+}
+.control-label {
+    background: white;
+    min-width:1px;
+    height: 15px;
+    text-align: center;
+    color:#74A254;
+    font-size: 12px;
+    padding:0px 5px 0 5px;
+    position: relative;
+    top:8px;
+    left:30px;
+}
+.place .control-label {
+    position: relative;
+    top:0px;
+    left:0px;
+    padding-left:21px;
+}
+.input input {
+    border: none;
+    background: white;
+    font-size: 12px;
+    padding: 15px 15px;
+    color: black;
+    border: 1px solid #B4B4B4;
+}
+.input div {
+    background: white;
+    width:1px;
+    height: 15px;
+    position: relative;
+    top:-42px;
+    left:30px;
+    text-align: center;
+    color:#74A254;
+    font-size: 12px;
+}
+.input div span {
+    height: 1px;
+    background-color: white;
+    padding:0 10px 0 10px;
+}
+.all_input input[type='text'] {
+    width: 200px;
+    height: 35px;
+
+}
+.all_input input[type='date'] {
+    width: 200px;
+    height: 35px;
+    margin: 35px 30px 0 20px;
+}
+.all_input input[type='radio'] {
+    width: 10px;
+    height: 18px;
+}
+.zag_p {
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 15px 0 15px 20px;
+}
+.sex {
+    margin: 15px 0 0 20px;
+    font-size: 14px;
+}
+.sex span {
+    margin:0 5px 0 0;
+}
+.sex input {
+    margin:0 5px 0 20px;
+}
+.total p {
+    font-size: 17px;
+}
+.total_summ {
+    margin-left:177.5px;
+    background: #74A254;
+    padding:15px 25px 5px 25px;
+    color:white;
+}
+.input_s button[type='submit'] {
+    height: 50px;
+    padding:10px 70px 10px 70px;
+    margin-top:30px;
+    margin-left:270px;
+    border: 1px solid #74A254;
+    color:#74A254;
+    font-size: 20px;
+    font-weight: lighter;
+    transition: 0.5s;
+    background-color: white;
+}
+.input_s button[type='submit']:hover {
+    background: #74A254;
+    color:white;
+    transition: 0.5s;
+}
+.service p {
+    font-size: 17px;
+    text-align: center;
+}
+.service span {
+    font-size: 15px;
+    margin:0 0 0 30px;
+    padding:5px 0 0 0;
+}
+.service_price p {
+    font-size: 17px;
+    margin:15px 0 0 30px;
+}
+.service_price span {
+    font-size: 17px;
+    margin-left:180px;
+    margin-top: 15px;
+}
+
+
+
+.payment_div {
+    width:1000px;
+    height: 500px;
+    background: white;
+    text-align: center;
+    margin-top:150px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border:1px solid #74A254;
+}
+.payment_div img {
+    width: 300px;
+    height: 300px;
+    margin-left:60px;
+}
+.payment_div a {
+    color:black;
+}
+.payment_div a:hover {
+    color:#74A254;
+}
+
+
+.help-block{
+    position: relative;
+    left:20px;
+    bottom: 20px;
+    font-size: 12px;
+    padding: 0;
+    color: red;
+}

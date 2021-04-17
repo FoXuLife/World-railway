@@ -1,0 +1,37 @@
+.hide {
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+}
+
+.submit_lbl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    cursor: pointer;
+    background: transparent;
+    color: #74A254;
+    border: 1px solid #74A254;
+    transition: 0.5s;
+}
+
+.submit_lbl:hover {
+    color: #ffffff;
+    background: #74A254;
+}
+
+.button_flight 
+{
+    position: relative;
+    background:none; 
+    box-shadow:none; 
+    border:none; 
+    height:40px;
+    cursor: pointer;
+    z-index:10;
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Forum';
+}
+.container-fluid{
+    padding-left: 0;
+}
+.logo{
+    margin-left: 25%;
+}
+.navbar-nav{
+    margin-top: 80%;
+    align-items: center;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color: #74A254;
+}
+.sidebar-sticky {
+    height: 100vh;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
